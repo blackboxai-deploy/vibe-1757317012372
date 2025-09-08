@@ -5,8 +5,8 @@
   "type": "module",
   "description": "Saathi - AI-First Mental Wellness Companion Frontend",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest"
